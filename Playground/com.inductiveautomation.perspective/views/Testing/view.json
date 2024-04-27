@@ -1,0 +1,75 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PowerChart"
+        },
+        "position": {
+          "height": 298,
+          "width": 447,
+          "x": 39,
+          "y": 18
+        },
+        "props": {
+          "interaction": {
+            "chartZoomLevel": 1,
+            "rangeZoomLevel": 1
+          }
+        },
+        "type": "ia.chart.powerchart"
+      },
+      {
+        "meta": {
+          "name": "PieChart"
+        },
+        "position": {
+          "height": 375,
+          "width": 196,
+          "x": 173.5,
+          "y": 327
+        },
+        "props": {
+          "colors": [
+            "#3366CC",
+            "#EC4B3D",
+            "#4FC86C",
+            "#00A9C6",
+            "#E69300"
+          ],
+          "data": [
+            {
+              "count": 36,
+              "flavor": "Pumpkin"
+            },
+            {
+              "count": 17,
+              "flavor": "Pecan"
+            },
+            {
+              "count": 14,
+              "flavor": "Apple"
+            },
+            {
+              "count": 10,
+              "flavor": "Sweet Potato"
+            },
+            {
+              "count": 9,
+              "flavor": "Chocolate"
+            }
+          ],
+          "title": "Favorite Pie Flavors"
+        },
+        "type": "ia.chart.pie"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
