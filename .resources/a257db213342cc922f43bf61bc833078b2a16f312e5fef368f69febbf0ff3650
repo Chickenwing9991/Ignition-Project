@@ -11,8 +11,8 @@
         "position": {
           "height": 175,
           "width": 300,
-          "x": 385,
-          "y": 539.5
+          "x": 218,
+          "y": 152
         },
         "props": {
           "backgroundColor": "",
@@ -47,7 +47,7 @@
                 "width": 16
               }
             ],
-            "show": true,
+            "show": false,
             "width": 1
           },
           "style": {
@@ -55,22 +55,14 @@
           }
         },
         "type": "ia.chart.gauge"
-      },
-      {
-        "meta": {
-          "name": "radImage"
-        },
-        "position": {
-          "height": 360,
-          "width": 360,
-          "x": 37,
-          "y": 51
-        },
-        "type": "rad.display.image"
       }
     ],
     "meta": {
       "name": "root"
+    },
+    "position": {
+      "x": -6,
+      "y": 0
     },
     "type": "ia.container.coord"
   }
