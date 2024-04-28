@@ -63,8 +63,8 @@
         "position": {
           "height": 360,
           "width": 360,
-          "x": 119,
-          "y": 58
+          "x": 247,
+          "y": 53
         },
         "type": "rad.display.image"
       }
